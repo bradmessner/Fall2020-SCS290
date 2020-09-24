@@ -15,7 +15,8 @@ public class stackexample {
 		int size = 1;
 		int remove = 1;
 		Scanner keyboard = new Scanner(System.in);
-		
+		boolean variableName = true;
+
 		do
 		{
 			System.out.flush(); 

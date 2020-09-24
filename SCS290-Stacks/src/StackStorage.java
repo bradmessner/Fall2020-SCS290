@@ -8,12 +8,13 @@ public class StackStorage {
 
 	// Declare variables
 	public Stack<Integer> stack = new Stack<Integer>();
+	char designation;
 	Random takeAGuess = new Random();
-
+	
 	public StackStorage(int size)
 	{
 		// Populate the Stack
-		for(int newSize=size;size>0;size--)
+		for(int newSize=size;newSize>0;newSize--)
 		{
 			stack.push(takeAGuess.nextInt(100));
 		}
