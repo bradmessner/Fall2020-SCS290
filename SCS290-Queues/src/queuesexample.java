@@ -1,3 +1,8 @@
+// Project:		Queues
+// Name:		Brad D. Messner
+// Version:		1.0
+// Date:		Sep 24, 2020
+// Desc: 		This is just an example of a queue
 
 import java.util.*;
 
