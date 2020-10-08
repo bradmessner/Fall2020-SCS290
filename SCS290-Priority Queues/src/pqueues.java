@@ -14,7 +14,7 @@ public class pqueues {
 	
 		PriorityQueue<Integer> pq = new PriorityQueue<>(); 
 		  
-		System.out.println("Loading Players in Class");
+		System.out.println("Loading Players");
         pq.add(45); 
         pq.add(23); 
         pq.add(5);
@@ -27,7 +27,7 @@ public class pqueues {
         System.out.println("Team Roster: " + pq);
         System.out.println("");
   
-        System.out.println("Oh uh. Player 89's roommate is quaratining.  Player 89 cannot play tonight.");
+        System.out.println("Oh uh. Player 89's roommate is quarantining.  Player 89 cannot play tonight.");
         pq.remove(89); 
         System.out.println("");
   
